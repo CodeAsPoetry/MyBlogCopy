@@ -13,3 +13,4 @@ mathjax: true
 * [条件随机场CRF(三) 模型学习与维特比算法解码](https://www.cnblogs.com/pinard/p/7068574.html)
 
 由于博客讲解的非常通俗易懂，这里仅作一个资源记录，方便笔者自己Review。
+

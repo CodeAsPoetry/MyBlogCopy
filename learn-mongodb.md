@@ -82,6 +82,12 @@ mathjax: true
    mongoimport --host=localhost --port=27017 --username=admin --password=password --authenticationDatabase admin --db Dialogue --collection text --file text.json
    ```
 
-   
 
-   
+* 坑：go语言建立struct，定义字段变量xxx(ProjectId)，通过`json:"xxx(project_id)"` 标签建立映射，发现mongodb间歇抽风，有时能查到，有时查不到。
+
+  原因：暂时没找到，网上建议用json两者保持强行一致，如“Project_Id”与 “project_id”
+
+  解决办法：换用bson，瞬间神也没有，鬼也没有了
+
+* /Users/codeaspoetry/opt/anaconda3/lib/python3.7/site-packages
+
